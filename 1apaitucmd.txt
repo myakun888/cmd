@@ -1,0 +1,18 @@
+//! cmd atau command
+
+cmd atau command prompt adalah perintah baris yang digunakan mengkesekusi perintah perintah di dalam microsoft
+
+microsoft memiliki beberapa tampilan diantaranya gui (grapic user interface) dan cmd /terminal
+gui yang umum kita pakai yang ada tampilan folder , mousepad dll
+jika cmd adalah berbasis dos, jadi setiap perintah yang akan kita lakukan itu berupa baris kode
+
+comand prompt sangat penting kita pelajari
+beberapa cmd yang kita kenal 
+cmd --> windows
+windows powershell --> windows
+terminal --> linux
+bash --> linux 
+terminal powershell --> linux
+
+dimateri ini kita akan mempelajari 
+
