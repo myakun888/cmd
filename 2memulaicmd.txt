@@ -1,0 +1,36 @@
+//! memulai cmd 
+
+untuk memulai ada beberapa cara
+kita bisa memklik
+
+//todo
+1. windows + R , lalu ketik 'cmd' pada kolom pencarian nya
+
+2. arahkan kursor ke logo windows lalu klik kanan pilih windowspowershell --> ini sama saja
+
+
+//! melihat petunjuk
+
+kita bisa menggunakan help
+help
+maka akan tampil beberapa keyword yang memilki fungsi masing-masing
+
+//todo
+color --untuk warna
+color help (menampilkan nilai parameter untuk warna)
+   color memilki 2 parameter , parameter 1 untuk background, parameter 2 untuk font
+
+contoh
+color 0a 
+(ini 0 background black, a forground/font hijau terang)
+
+
+//! cheatset nya
+
+
+color     --> warna
+cls       --> menghapus layar cmd
+ctrl + c  --> menghentikan proses yang terjadi pada cmd
+exit      --> keluar dari layar cmd
+
+

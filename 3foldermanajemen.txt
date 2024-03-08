@@ -1,0 +1,133 @@
+//! manajement folder
+
+untuk perintah yang berhubungan dengan folder diantaranya
+
+untuk melihat bantuan pada folder / direktori ketik dir/? atau help dir
+ //! memilih dirive
+
+secara default pada saat kita membuka cmd kita berada di drive C
+untuk pindah ke drive yang kita ingin kan
+
+//todo
+drive:     
+ contoh kita ingin ke drive d 
+d:
+ini kita akan pindah ke dirive d
+
+//! masuk dan keluar folder
+    masuk
+//todo
+cd namafolder
+contoh
+    cd data
+artinya kita masuk ke folder data
+
+    keluar
+//todo
+cd ..
+artinya kita keluar dari folder saat ini aktiv
+
+    //! perlu diingat berlaku relatif folder
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+//! melihat isi folder
+    melihat isi folder / direktori (pada cmd istilah directori adalah folder), gunakan kata kunci dir
+dir
+artinya kita akan menampilkan isi dari folder saat ini kita aktif / kita berada
+
+dir datax
+artinya kita melihat isi folder yang datax
+
+perlu di ingat berlaku relatif folder, artinya tuliskan jalur path nya jika folder yang di lihat tidak di dalam satu taraf dengan folder aktif kita saat ini
+
+dir /datax/datamanajemen
+
+artinya dari folder saat ini kita melihat folder datamanajemen (kita asumsikan folder datamanajemen berada di dalam folder datax)
+
+
+//! melihat folder dengan kriteria tertentu
+kita bisa melihat isi folder dengan kriteria tertentu
+
+
+//todo
+dir *.ekstensi 
+contoh
+dir *.png
+artinya hanya tampil kan semua isi yang ekstensi nya png
+
+menampilkan semua file dan semua ekstensi file
+dir *.*
+artinya menamplkan semua nama file dan semua jenis ekstensi file
+
+(* / bintang / asteric adalah untuk mewakili all atau semua)
+//! membuat folder
+untuk membuat folder kita bisa menggunakan kata kunci
+mkdir
+md
+contoh
+
+
+mkdir namafolder
+contoh
+mkdir datapelanggan
+artinya kita membuat folder data pelanggan
+
+md datapelanggan
+artinya kita membuat folder data pelanggan
+
+kita bisa pilih salah satu
+
+
+membuat folder untuk tempat lain, kita bisa tuliskan alamt path
+contoh
+mkdir datax\barang
+artinya kita membuat folder barang yang berada di dalam folder data
+
+mkdir ..\datay\barang2
+artinya kita keluar dari folder saat ini lalu masuk ke folder datay dan membuat folder barang2
+
+//! penting perlu perhatikan tanda garis miring nya jika slash '/' tidak berfungsi saat menggunakan untuk path nya , ganti dengan back slah '\'
+
+ //! menghapus folder
+
+ untuk bantuan gunakan
+ rmdir /?
+ rm /?
+
+ untuk menghapus kita bisa menggunakan kata kunci
+ rmdir
+ rm
+
+ contoh
+ rmdir namafolder
+ contoh
+ rmdir datax
+ artinya kita menghapus folder datax
+
+jika folder berisi file kita kita juga perlu parameter lain
+
+/s artinya meghapus semua folder yang di tuju beserta isinya , akan keluar konfimasi [y/n/all] y untuk yes , n untuk no
+/q artinya tidak akan menanyakan lagi saat menghapus , (ini harus dikombisakan dengan parmater /s)
+
+contoh
+
+rmdir datax /s
+artinya meghapus folder datax , akan keluar konfimasi
+
+rmdir datax /s /q
+artinya menghapus folder datax langsung tanpa konfimasi
+
+
+sama seperti membuat
+kita bisa menghapus folder di tempat lain dengan gunakan path / jalur path folder yang kita ingin hapus
+
+
+//! resume , cheatset
+
+cd namafolder --> untuk membuka / masuk ke folder
+cd ..         --> keluar / mundur folder satu tingkat
+mkdir namafolder --> membuat folder
+md namafolder -->
+rmdir namafolder --> menghapus folder
+rm namafolder -->
