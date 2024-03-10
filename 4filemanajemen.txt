@@ -1,0 +1,101 @@
+//! file manajemen
+kita bisa juga memanajemen file diantaranya
+membuat , menghapus dan mengcopy dll
+
+
+//! membuat file
+untuk membuat file bisa mengunakan kata kunci copy con
+//todo
+   copy con namfile.ekstensi
+contoh
+   copy con data1.txt
+artinya kita membuat file dengan nama data1.txt
+
+kita juga bisa menggunakan cara lain
+
+echo isifile > namafile.ekstensi
+contoh
+echo bismillah > filea.txt
+
+
+dua cara diatas bisa
+
+
+//! mengcopy file
+
+perlu diperhatikan path relatif atau abslute pathnya
+1.jika file yang ingin di copi berada satu folder/ satu baris dengan kita saat aktiv
+//todo
+copy namafile.ekstensi jalurpathnya
+contoh
+kita berada di folder a, dan ingin mengcopy filedata.txt yang berada dialam folder a , dan ingin menarok ny di folder b
+
+copy filedata.txt ..\folderb
+
+2.kita berada difolder a dan  ingin mengcopy filedatab di dalam folder b dan ingin menarok ny di folder a
+, karena kita berda di lokasi yang ingin kita trok jadi tidak perlu membuat path lokasi nya
+//todo
+copy ..\jalurpath\namafile.ekstensi 
+contoh
+copy ..\folderb\filedatab.txt 
+
+3. kita berada di folder a dan ingin mengcopy filedatab dari folder b, dan ingin menarok copian ny di di dalam folder c
+//todo
+copy \pathjalur\namafile.txt \jalurpath\folder
+contoh
+copy ..\folderb\filedatab.txt ..\folderc
+
+
+
+//! mengcopy file dengan kriteria tertentu
+
+sama pada materi lain
+kita bisa menggunakan *.* 
+paramater pertama itu mereprsentasikan namafile, jika semua file kita ganti dengan tanda bintang / asteric *
+parameter kedua itu mereprsentasikan ekstensi file
+
+contoh
+kita ingin mengcopy semua file yang ekstensi nya .txt
+
+copy *.txt \folderb
+artinya
+kita mengcopy semua file yang berkesistensi txt di dalam file sekarang dan menarok nya di folder b
+
+copy *.* \folderb
+artinya
+kita mengcopy semua file dan semua ekstensi di dalam file sekarang dan menarok nya di folderb
+
+
+//! menganti nama file
+
+untuk menganti namafile kita bisa mengguakana kata kunci ren , ini juga berlaku untuk mengganti nama folder
+
+//todo
+ren namafile.ekstensi namafilebaru.ekstensi
+contoh
+ren filea.txt fileupdatea.txt
+
+
+//! menghapus file
+untuk menghapus file kita bisa menggunakan kata kunci del
+//todo
+del namafile.ekstensi
+contoh
+del filedatab.txt
+
+//! menghapus dengan kriteria tertentu
+sama pada materi lain
+kita bisa menggunakan *.* 
+paramater pertama itu mereprsentasikan namafile, jika semua file kita ganti dengan tanda bintang / asteric *
+parameter kedua itu mereprsentasikan ekstensi file
+
+del *.txt
+artinya menghapus semua file dengan ekstensi .txt
+del *.*
+artinya menghapus semua file dan semua ekstensi (menghapus semua isi dari folder tersebut)
+
+jika ingin menghapus di folder lain gunakan path/abslute patnya
+contoh kita berad di folder a dan ingin menghapus semua file di folder b
+
+del ..\folderb\*.*
+
