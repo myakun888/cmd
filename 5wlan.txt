@@ -1,0 +1,40 @@
+//! Wlan
+untuk perintah mengenai wlan atau wireless
+
+kita bisa menekan 
+
+NETSH WLAN        --> maka akan tampil semua perintah di sini
+   akan tampil beberapa diantaranya add, connect, delete, disconect ,show dll
+
+
+
+dimateri ini kita akan cara melihat wifi yang pernah tersambung dan ingin melihat password ny melalui cmd
+
+netsh wlan show  ----> ini akan menampilkan semua, diantaranya profile, network dll
+
+untuk melihaat semua profile kita akan menggunakan profile
+
+
+netsh wlan show profile --> maka akan tampil semua ssid / jaringan wifi yang pernah terhubung ke pc kita, lalu jika sudah tau lanjutkan
+
+jika sudah kita tentukan contoh nama wifi mfs
+maka 
+
+netsh wlan show profile name='mfs'  --> ini akan tampil informasi dari wifi mfs
+
+untuk melihat password nya
+
+netsh wlan show profile name='mfs' key=clear      --> maka akan tampil dengan password yang sudah terbuka, liaht di key content nya
+
+
+//! resume 
+ 
+inti nya untuk melihat wifi dari cmd
+
+//todo
+
+netsh wlan show profile ---> menampilkan nama-nama wifi nya , jika sudah
+
+//todo
+
+netsh wlan show profile name=namawifi key=clear   --> ini akan menampilan informasi yang sudah terbukan password nya lihat di key content nya

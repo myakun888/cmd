@@ -1,0 +1,12 @@
+//! control panel
+
+control panel kita bisa menggunakan cmd dengan menekan
+
+//todo
+control 
+akan menampilkan gui dari windows mengenai control panel
+
+
+untuk melihat ip dns dan default gateway di comand prompt
+//todo
+ipconfig
