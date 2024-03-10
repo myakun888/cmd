@@ -1,0 +1,4 @@
+//! system
+di sistem kita bisa melihat versi windows yang terinstal kita bisa menggunakan
+ver  --> ini untuk menampilkan versi windows
+systeminfo --> ini menampilkan detail dari sistem informasi dari perangkat kita

@@ -1,0 +1,15 @@
+//! Partisi
+
+untuk melihat partisi kita bisa menggunakan kata kunci dikspart, ini akan masuk ke mode admnistrator
+harap hati hati dan teliti 
+
+diskpart          --> akan tampil semua command atau perintah yang berhubungan dengan disk
+
+
+//! untuk melihat 
+kita bisa menggunakan list
+
+melihat ada drive apa saja
+list volume  ---> akan menampilkan semua volume / drive
+
+list disk  --> akan menampilkan penyipana / disk apa saja yang terpasang 
